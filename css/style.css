@@ -746,6 +746,16 @@ flex-wrap: wrap;
 	font-weight: 400;
 	padding-top: 300px;
 }
+@media(max-width: 700px){
+	.block2_title{
+		font-size: 40px;
+	}
+}
+@media(max-width: 450px){
+	.button_box{
+		flex-direction: column;
+	}
+}
 /*Команда*/
 .our_team{
 	width: 100%;
